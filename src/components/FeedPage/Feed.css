@@ -1,0 +1,83 @@
+/* POSTS STYLE */
+.FeedPage_cardStyle {
+    padding: 0 15px;
+    text-align: left;
+    border-radius: 0.5em;
+    border: solid 2px #d8d8d8;
+    background-color: white;
+    color: #454545;
+}
+
+.FeedPage_videoStyle {
+    padding: 5px;
+    border: 1px solid rgba(178,215,251,0.2);
+}
+
+.FeedPage_imgStyle {
+    border-radius: 3%;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(178,215,251,0.2);
+    margin-bottom: 5px;
+}
+
+/* DROPDOWN LIST STYLE */
+.FeedPage_dropdownStyle {
+    position: absolute;
+    width: 90%;
+}
+
+.FeedPage_dropdownElementStyle:hover {
+    background-color: #785964;
+}
+
+/* BUTTONS */
+.FeedPage_generalButtonStyle {
+    background-color: #785964;
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+}
+
+.FeedPage_generalButtonStyle:hover {
+    background-color: #917881;
+}
+
+.FeedPage_generalButtonStyle:active {
+    background-color: #785964;
+}
+
+.FeedPage_createButtonStyle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    background-color: #785964;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 13px;
+}
+
+.FeedPage_createButtonStyle input {
+    color: rgb(236, 221, 210);
+    line-height: 30px;
+    background-color: inherit;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.FeedPage_createButtonStyle:hover {
+    background-color: #917881;
+}
+
+.FeedPage_createButtonStyle:active {
+    background-color: #785964;
+}

@@ -1,0 +1,26 @@
+.Register_errorStyle {
+    color: yellow;
+    font-style: italic;
+}
+
+.Register_button {
+    border-radius: 5px;
+    margin: 5px;
+    float: right;
+    border: none;
+    background-color: #553555;
+    color: #C3BABA;
+}
+
+.Register_button:hover {
+    background-color: #7A5E71;
+}
+
+.Register_button:active, .Register_button:active {
+    background-color: #553555;
+}
+
+.Register_inputStyle {
+    margin-bottom: 15px;
+    width: 100%;
+}

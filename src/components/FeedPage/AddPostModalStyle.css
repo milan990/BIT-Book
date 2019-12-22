@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* MODAL CARD STYLE */
+.AddPostModal_updateProfileHeading {
+    color: #454545;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 30px;
+}
+
+.AddPostModal_modalCardStyle {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    border: solid 2px #d8d8d8;
+}
+
+.AddPostModal_switchBoxStyle {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* ADD POSTS BUTTONS */
+.AddPostModal_generalStyle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AddPostModal_addPostButtonStyle {
+    background-color: #785964;
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    width: 90%;
+    display: inline-block;
+    font-size: 1rem;
+    height: 80%;
+}
+
+.AddPostModal_addPostButtonStyle:hover {
+    background-color: #917881;
+}
+
+.AddPostModal_addPostButtonStyle:active {
+    background-color: #785964;
+}

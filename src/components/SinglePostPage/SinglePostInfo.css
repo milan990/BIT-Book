@@ -1,0 +1,9 @@
+.SinglePostInfo_cardStyle {
+    text-align: center;
+    padding: 35px 15px;
+    border-radius: 0.5em;
+    border: solid 2px #d8d8d8;
+    background-color: white;
+    color: #454545;
+    margin: 50px 0;
+}

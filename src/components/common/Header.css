@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* NAV BAR STYLE */
+.Header_navColor {
+  background-color: #785964;
+  position: fixed;
+  z-index: 999;
+}
+
+/* NAV LINKS STYLE */
+.Header_navLinkStyle {
+  padding-left: 25px;
+  color: #D5C7BC;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.Header_navLinkStyle:hover {
+  color: #F1FFFA;
+  text-decoration: none;
+}
+
+.Header_navLinkStyle:last-child {
+  padding-right: 20px;
+}
+
+/* LOGO STYLE */
+.Header_logoStyle {
+  font-size: 2em;
+  color: #D5C7BC;
+  margin-left: 3%;
+  font-family: 'Satisfy', cursive;
+}
+
+.Header_logoStyle:hover {
+  color: #F1FFFA;
+  text-decoration: none;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* MODAL CARD STYLE */
+.ProfilePage_updateProfileHeading {
+    color: #454545;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 30px;
+}
+
+.ProfilePage_modalCardStyle {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    border: solid 2px #d8d8d8;
+}
+
+/* INPUTS */
+.ProfilePage_formInputElement {
+    margin: 10px 0;
+}
+
+/* UPDATE BUTTON */
+.ProfilePage_updateButtonStyle {
+    background-color: #785964;
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    /* width: 10%; */
+    /* display: inline-block; */
+    font-size: 1rem;
+    width: 100%;
+    height: 80%;
+}
+
+.ProfilePage_updateButtonStyle:hover {
+    background-color: #917881;
+}
+
+.ProfilePage_updateButtonStyle:active {
+    background-color: #785964;
+}
+
+/* CLOSE BUTTON */
+.ProfilePage_closeButton {
+    float: right;
+    width: 100%;
+}
+
+/* CHOOSE FILE BUTTON */
+.ProfilePage_uploadButtonsDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProfilePage_chooseFileButtonStyle {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.ProfilePage_mockChooseFileButton {
+    font-weight: bold;
+	color: rgb(236, 221, 210);
+	border: none;
+	background-color: #785964;
+	margin-bottom: 10px;
+	width: 100%;
+    height: 60%;
+    min-height: 40px;
+	min-width: 70px;
+    font-size: 1rem;
+}
+
+.ProfilePage_mockChooseFileButton:hover {
+    background-color: #917881;
+}
+
+.ProfilePage_closeUpdateButtonsDiv {
+    width: 100%;
+}
+
+.ProfilePage_uploadButtonStyle {
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    background-color: #785964;
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    min-width: 100px;
+    font-size: 1rem;
+}
+
+.ProfilePage_uploadButtonStyle:hover {
+    background-color: #917881;
+}
+
+.ProfilePage_uploadButtonStyle:active {
+    background-color: #785964;
+}

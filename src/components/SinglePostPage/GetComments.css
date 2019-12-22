@@ -1,0 +1,23 @@
+.GetComments_cardStyle {
+	border: solid 2px #d8d8d8;
+	border-radius: 0.5rem;
+	background-color: rgba(236, 236, 236, 0.609);
+	padding: 20px 0;
+	width: 95%;
+	margin: 10px auto;
+	color: rgba(44, 62, 80, 0.9);
+}
+
+.GetComments_commentAuthorStyle {
+	font-size: 1.2em;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	color: #454545;
+}
+
+.GetComments_commentDateStyle {
+    font-size: 1em;
+    text-align: left;
+    padding-left: 20px;
+}

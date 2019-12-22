@@ -1,0 +1,109 @@
+/* POST BUTTON */
+.Posts_postButtonStyle {
+	font-weight: bold;
+	color: rgb(236, 221, 210);
+	border: none;
+	background-color: #785964;
+	float: right;
+	font-size: 1rem;
+}
+
+@media all and (max-width: 771px) {
+    .Posts_postButtonStyle {
+		padding: 5px 10px;
+		margin: 10px 0;
+    }
+}
+
+.Posts_postButtonStyle:hover {
+	background-color: #917881;
+}
+
+.Posts_postButtonStyle:active {
+	background-color: #785964;
+}
+
+/* UPLOAD BUTTON STYLE */
+.Posts_uploadButtonStyle {
+	font-weight: bold;
+	color: rgb(236, 221, 210);
+	border: none;
+	background-color: #785964;
+	float: right;
+	margin-bottom: 30px;
+	width: 100%;
+	min-width: 100px;
+	font-size: 1rem;
+	margin-top: 15px;
+}
+
+
+.Posts_uploadButtonStyle:hover {
+	background-color: #917881;	
+}
+
+.Posts_uploadButtonStyle:active {
+	background-color: #785964;	
+}
+
+/* CHOOSE FILE BUTTON STYLE */
+.Posts_chooseFileButtonStyle {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.Posts_mockChooseFileButton {
+    font-weight: bold;
+	color: rgb(236, 221, 210);
+	border: none;
+	background-color: #785964;
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+	min-width: 100px;
+	font-size: 1rem;
+	margin-top: 15px;
+}
+
+.Posts_mockChooseFileButton:hover {
+	background-color: #917881;	
+}
+
+.Posts_mockChooseFileButton:active {
+	background-color: #785964;	
+}
+
+.Posts_inputStyle {
+	width: 97%;
+	margin: 15px auto;
+}
+
+/* CLOSE MODAL BUTTON */
+.AddPostModal_closeButton {
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    background-color: #785964;
+    float: left;
+	font-size: 1rem;
+	margin-bottom: 25px;
+ }
+ 
+ @media all and (max-width: 771px) {
+    .AddPostModal_closeButton {
+		padding: 5px 10px;
+		margin: 10px 0;
+    }
+}
+
+ .AddPostModal_closeButton:hover {
+     background-color: #917881;
+ }
+
+ .AddPostModal_closeButton:active {
+    background-color: #785964;
+}

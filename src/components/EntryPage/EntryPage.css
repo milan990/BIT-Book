@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.EntryPage_formStyle {
+	font-size: 1.5em;
+	padding: 5px;
+	float: left;
+	border-radius: 5px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	margin: 10px 0;
+	color: #553555;
+	/* #D5C7BC */
+}
+	
+.EntryPage_switchBox {
+	border-radius: 5px;
+	box-shadow: -12px 11px 34px -1px rgba(71, 73, 115, 0.7);
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(71, 73, 115, 0.7);
+	padding: 30px 20px 20px 20px;
+	min-height: 400px;
+	position: relative;
+	color: #553555;
+}
+
+.EntryPage_checked{
+    background-color: rgba(71, 73, 115, 0.7);
+    box-shadow: -12px 11px 34px -1px rgba(71, 73, 115, 0.7);
+}
+
+.EntryPage_hover:link {
+    text-decoration: none;
+}
+
+.EntryPage_hover:hover {
+    background-color: rgba(71, 73, 115, 0.7);
+}
+
+.EntryPage_hover:active {
+    box-shadow: -12px 11px 34px -1px rgba(44,62,80,0.34);
+}
+
+.EntryPage_successfullRegisterInfo {
+	position: relative;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.9em;
+}

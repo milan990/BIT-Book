@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.PeoplePage_imgStyle {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border: 2px solid #d8d8d8;
+}
+
+.PeoplePage_cardStyle {
+    height: 95%;
+    min-height: 160px;
+    padding: 20px 10px;
+    margin: 5px auto;
+    text-align: left;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: solid 1px #b3b3b3;
+}
+
+.PeoplePage_cardText {
+    margin: 20px 0 0 0;
+    color: #553555;
+    padding: 0 25px;
+    word-wrap: break-word;
+}
+
+.PeoplePage_userName {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}

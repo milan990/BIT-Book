@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.ProfilePage_cardStyle {
+    padding: 20px;
+    margin: 60px 0;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: white;
+    min-height: 80%;
+}
+
+.ProfilePage_imgStyle {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #d8d8d8;
+}
+
+.ProfilePage_userName {
+    font-family: 'Satisfy', cursive;
+}
+
+/* BUTTON STYLES */
+.ProfilePage_updateButtonStyle {
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    background-color: #785964;
+    margin: 20px 0;
+    width: 50%;
+    height: 50%;
+    min-width: 100px;
+    font-size: 1rem;
+}
+
+.ProfilePage_updateButtonStyle:hover {
+    background-color: #917881;
+}
+
+.ProfilePage_updateButtonStyle:active {
+    background-color: #785964;
+}
+
+.ProfilePage_userDataInfo {
+    border: none;
+    min-width: 100px;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0;
+}
+
+.ProfilePage_error {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+.ProfilePage_editProfileButtonStyle {
+    background-color: #785964;
+    font-weight: bold;
+    color: rgb(236, 221, 210);
+    border: none;
+    width: 30%;
+    font-size: 1rem;
+    height: 80%;
+    margin: 15px auto;
+}

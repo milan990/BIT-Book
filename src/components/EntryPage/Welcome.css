@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.WelcomeHeader {
+    font-size: 2.5em;
+    margin-bottom: 10%;
+    font-family: 'Satisfy', cursive;
+}
+
+.WelcomeParagraphStyle {
+    text-align: center;
+    color: rgba(44, 62, 80, 1);
+    padding-right: 15%;
+    line-height: 2em;
+    margin-bottom: 55px;
+}
